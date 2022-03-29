@@ -6,7 +6,7 @@ import { dummyData } from '../data/Data'
 
 const Home = () =>{
     return (
-        <View>
+        <View style={{marginTop: 30}}>
             <Carousel data = {dummyData}/>
         </View>
     )
